@@ -1,6 +1,6 @@
-# objectequality-js
+# strictequality-js
 
-objectequality-js is a homemade implementation of the strict equality operator in JavaScript (===) that follows the [isStrictlyEqual](https://tc39.es/ecma262/multipage/abstract-operations.html#sec-isstrictlyequal) TC39 specification. It currently only works on Chrome versions less than v104.
+strictequality-js is a homemade implementation of the strict equality operator in JavaScript (===) that follows the [isStrictlyEqual](https://tc39.es/ecma262/multipage/abstract-operations.html#sec-isstrictlyequal) TC39 specification. It currently only works on Chrome versions less than v104. Read this project's corresponding blog on my website https://arhan.sh/blog/implementing-in-javascript-from-scratch/
 
 # Installation
 
