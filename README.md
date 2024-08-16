@@ -1,6 +1,8 @@
 # strictequality-js
 
-strictequality-js is a homemade implementation of the strict equality operator in JavaScript (===) that follows the [isStrictlyEqual](https://tc39.es/ecma262/multipage/abstract-operations.html#sec-isstrictlyequal) TC39 specification. It currently only works on Chrome versions less than v104. Read this project's corresponding blog on my website https://arhan.sh/blog/implementing-in-javascript-from-scratch/
+strictequality-js is a [spec-compliant](https://tc39.es/ecma262/multipage/abstract-operations.html#sec-isstrictlyequal) implementation of the strict equality operator in JavaScript (===) from scratch. It utilizes the Chrome Debugging Protocol and the heap profiler for object equality, and currently only works on Chromium version [v103](https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Mac_Arm/1002918/).
+
+Read this project's corresponding blog on my website https://arhan.sh/blog/implementing-strict-equality-in-javascript-from-scratch/
 
 # Installation
 
