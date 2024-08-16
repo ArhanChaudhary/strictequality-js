@@ -1,5 +1,5 @@
 {
-  "name": "Object Equality",
+  "name": "Strict Equality",
   "version": "0.1",
   "manifest_version": 3,
   "permissions": ["debugger"],
