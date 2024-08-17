@@ -1,10 +1,7 @@
 async function onContentMessage(_, sender, sendResponse) {
   let tabId = sender.tab.id;
 
-  await new Promise((resolve) =>
-    chrome.debugger.attach({ tabId }, "1.3", resolve)
-  );
-
+  await chrome.debugger.attach({ tabId }, "1.3");
   await chrome.debugger.sendCommand({ tabId }, "HeapProfiler.takeHeapSnapshot");
   let objDetails = await Promise.all([
     chrome.debugger.sendCommand({ tabId }, "Runtime.evaluate", {

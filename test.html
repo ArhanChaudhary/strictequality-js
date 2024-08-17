@@ -1,7 +1,7 @@
 <script>
   (async () => {
     await new Promise((resolve) => {
-      document.addEventListener("strictEqualityLoaded", resolve);
+      document.addEventListener("strictEqualityLoaded", resolve, { once: true });
     });
     document.body.innerHTML = "Running tests...<br><br>";
     let significantValues = [
